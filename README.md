@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution]()
-- Live Site URL: [Live Site]()
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/responsive-design-using-flexbox-html-css-and-js-C8V8mlFG2U)
+- Live Site URL: [Live Site](https://advice-fm-gen.netlify.app/)
 
 ## My process
 
