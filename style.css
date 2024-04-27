@@ -1,7 +1,70 @@
-.attribution {
+:root {
+  --grayish-blue: hsl(217, 19%, 38%);
+  --light-cyan: hsl(193, 38%, 86%);
+  --neon-green: hsl(150, 100%, 66%);
+  --dark-gray-blue: hsl(217, 19%, 24%);
+  --dark-blue: hsl(218, 23%, 16%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-blue);
+  color: white;
+  font-family: "Manrope", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-gray-blue);
+  margin-bottom: 50px;
+  height: 375px;
+  width: 575px;
+  border-radius: 20px;
+  padding: 0px 50px;
+}
+
+#advice-id {
+  color: var(--neon-green);
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 15px;
   font-size: 15px;
+}
+
+#advice-text {
+  color: var(--light-cyan);
   text-align: center;
+  font-weight: 900;
+  font-size: 28px;
+}
+
+.attribution {
+  font-size: 16px;
+  text-align: center;
+  color: var(--light-cyan);
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: var(--neon-green);
+  transition: all 0.15s ease-out;
+}
+.attribution a:hover {
+  opacity: 0.7;
 }
