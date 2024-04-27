@@ -89,6 +89,7 @@ body {
 
 .divider {
   margin-bottom: 40px;
+  -webkit-user-drag: none;
 }
 
 #dice-btn {
