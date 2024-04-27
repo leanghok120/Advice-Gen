@@ -50,5 +50,5 @@ I learned quite alot from this one project, so here's a recap of I've learned:
 
 ## Author
 
-- Website - [Leanghok](https://socials-link.netlify.app/)
+- Website - [Leanghok](https://leanghok-socials.netlify.app/)
 - Frontend Mentor - [@leanghok120](https://www.frontendmentor.io/profile/leanghok120)
