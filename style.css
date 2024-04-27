@@ -37,7 +37,7 @@ body {
   height: fit-content;
   max-width: 575px;
   border-radius: 20px;
-  padding: 40px 50px 40px 50px;
+  padding: 40px 30px 40px 30px;
 }
 
 #advice-id {
@@ -55,6 +55,32 @@ body {
   font-weight: 900;
   font-size: 28px;
   margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 650px) {
+  .container {
+    max-width: 93%;
+  }
+
+  #advice-id {
+    font-size: 13px;
+  }
+
+  .divider-mobile {
+    display: block;
+  }
+  .divider-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 670px) {
+  .divider-mobile {
+    display: none;
+  }
+  .divider-desktop {
+    display: block;
+  }
 }
 
 .divider {
