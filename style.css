@@ -34,10 +34,10 @@ body {
   justify-content: center;
   background-color: var(--dark-gray-blue);
   margin-bottom: 50px;
-  height: 375px;
-  width: 575px;
+  height: fit-content;
+  max-width: 575px;
   border-radius: 20px;
-  padding: 0px 50px;
+  padding: 40px 50px 40px 50px;
 }
 
 #advice-id {
@@ -45,8 +45,8 @@ body {
   letter-spacing: 3px;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 15px;
   font-size: 15px;
+  margin-bottom: 25px;
 }
 
 #advice-text {
@@ -54,6 +54,26 @@ body {
   text-align: center;
   font-weight: 900;
   font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.divider {
+  margin-bottom: 40px;
+}
+
+#dice-btn {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--neon-green);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  margin: 0 auto -60px;
+}
+
+#dice-btn:hover {
+  box-shadow: 0 0 40px var(--neon-green);
 }
 
 .attribution {
